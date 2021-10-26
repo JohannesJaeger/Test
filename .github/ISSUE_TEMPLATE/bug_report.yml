@@ -4,11 +4,14 @@ labels: ["bug"]
 assignees:
   - hycrafthd
 body:
-  - type: input
+  - type: textarea
     id: bug_description
     attributes:
-      label: Bug desciption
-      description: "What happened and what is the issue"
-      placeholder: "Whenever I visit the user account page (1-2 times a week)"
+      label: Bug description and reproduction steps
+      description: "What is not working correctly and how can we trigger this bug"
+      placeholder: |
+        1.
+        2.
+        3.
     validations:
       required: true
