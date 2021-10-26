@@ -1,7 +1,7 @@
 name: Bug Report
 description: Create a bug report
 labels: ["bug"]
-title: [MC-Version]
+title: "[MC-Version]"
 assignees:
   - hycrafthd
 body:
